@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="ext.js" language="javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Creating Menu Tabs & Logo at Top Using HTML -->
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Creating Banner Layout in HTML -->
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm<br> <span>Jalen Williams</span></h2>
+            <h3>I'm a Front End Web Developer</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+
+    <!-- Creating About Me Layout in HTML -->
+    <section class="about" id="about">
+        <div class="heading">
+            <p>Get to Know me</p>
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src="IMG_9470.jpg"alt="" class="proPic">
+            </div>
+            <div class="contentBx w50">
+                <h3>Who am i?</h3>
+                <h2>I'm <b>Jalen Williams</b>, a Front End Web Developer</h2>
+                <p>Hello, My name is Jalen and I'm a Front End Web Developer. I know multiple code languages and I master other computer science skills to. I'm a expert at Adobe Photoshop, Preimere and After Effects. My dream is to be a film maker. 
+				
+			</p>
+                <div class="heading bottom">
+                    <a href="images/resume.docx" class="btn round">Download CV</a>
+                    <div class="bt">
+                        <b>Name:</b> Jalen Williams<br>
+                        <b>Age:</b> 18
+                    </div>
+                    <div class="bt">
+                        <b>Email:</b> Jnxclips@gmail.com<br>
+                        <b>Location:</b> Georgia
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Services Layout in HTML -->
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>My Services</h2>
+            <p>Services i Offer to my Clients</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <i class="fa fa-css3 fa-4x"></i>
+                <h3>Web Design CSS</h3> 
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-wordpress fa-4x"></i>
+                <h3>Adobe Photoshop</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-drupal fa-4x"></i>
+                <h3>Building Websites</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-joomla fa-4x"></i>
+                <h3>Adobe Preimerer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-android fa-4x"></i>
+                <h3>Adobe After Effects</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+         
+    <!-- Creating Work Layout in HTML -->
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>Websites I built and Publish on Github</h2>
+            <p>Showcasing some of my <b>Udemy Courses</b></p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <a href="https://jalenwilliams100.github.io/Feedback-u/" target="_blank">
+                    <img src="https://123pngdownload.com/wp-content/uploads/2018/12/laugh-crying-emoji-emoticon-by-Vexels.png" alt="">
+                    <p>Feed Back WebSite 2021</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://jalenwilliams100.github.io/quiz-appp/" target="_blank">
+                    <img src="https://lh3.googleusercontent.com/proxy/lv-Zj2RPCMauc_cofkyESDDEYyrZ5jlvm-1NUFUT0N7ezyf_P6ZjAVk9tFRK5yZXDV4C1MCCIyCz3nPxguKuxydPoOaHD4pFnNyd7IA9Xb3o=s0-d" alt="">
+                    <p>Quiz App</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://jalenwilliams100.github.io/movie-apps/" target="_blank">
+                    <img src="https://raw.githubusercontent.com/passy/Android-DirectoryChooser/master/assets/logos/popcorntime.png" alt="">
+                    <p>Movie App - 2020</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://www.udemy.com/course/web-design-layouts-a-must-to-learn-for-all-levels/?referralCode=7DA8B200D52E96CC3A1B" target="_blank">
+                    <img src="images/webCourse.jpg" alt="">
+                    <p>Web Design Layouts A Must to Learn For All Levels</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://github.com/JalenWilliams100?tab=repositories" target="_blank">
+                    <img src="images/formCourse.jpg" alt="">
+                    <p>Beautiful Designs on SignUp , Contact , Login Forms</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://github.com/JalenWilliams100?tab=repositories" target="_blank">
+                    <img src="images/animationCourse.jpg" alt="">
+                    <p>The Ultimate CSS - Best Practise on Animations & Effects</p>
+                </a>
+            </div>
+            <div class="heading">
+                <a href="https://github.com/JalenWilliams100?tab=repositories" target="_blank" class="btn" style="color:#fff;">View All My Courses</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Testimonial Layout in HTML -->
+    <section class="testimonial" id="testimonial">
+        <div class="heading white">
+            <h2>Testimonial</h2>
+            <p>What my clients think about me</p>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <p>Jalen did an excellent creative job, addressing our request quickly, and also providing his own graphic insight, being open to feedback and changes or edits when they arose. He worked with us the entire way. Highly recommended.</p>
+                <h3>Richard Wilson<br>Creative Designer</h3>
+            </div>
+            <div class="testimonialBx">
+                <p>I've been Searching for a good Portfolio Website done on html & css. This is definitely the one simple about myself with Responsive Design.  Thanks Jalen</p><h3>Joyce K<br>Web Designer (google)</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Contact Layout in HTML -->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <p>Feel free to contact me anytimes</p>
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <p>Always available for freelance work if the right project<br> comes along, Feel free to contact me!</p>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>160 Oakland Way <br> Dallas <br>GA, 30157</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone no :</h3>
+                            <p>770-527-7533</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email Address</h3>
+                            <p>Jnxclips@gmail.com</p>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Social Connect</h3>
+                    <div class="boxSocial">
+                        <div class="icon">
+                            <a href="https://www.facebook.com" target="_blank">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.twitter.com" target="_blank">
+                                <i class="fa fa-twitter-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/" target="_blank">
+                                <i class="fa fa-linkedin-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.instagram.com/?hl=en" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name" name="">
+                    <input type="email" placeholder="Email" name="">
+                    <textarea name="" rows="6" id="" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" name="">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Footer Layout in HTML -->
+    <footer class="copyright">
+        <p>&copy; 2020, Yourwebsite.com, Allrights reserved</p>
+    </footer>
+</body>
+</html>
